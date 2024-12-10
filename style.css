@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    /* border: 2px solid black; */
+    text-align: center;
+    background-color:whitesmoke;
+    
+    
+}
+
+.a{
+    /* border: 2px solid black; */
+    width: 350px;
+    /* height: 350px; */
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    margin: 30px;
+    background-color: skyblue;
+    box-sizing: border-box;
+}
+
+.b,.c,.d{
+    width: 250px;
+    /* height: 350px; */
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    padding: 20px;
+    display: inline-block;
+    margin: 30px;
+    background-color:  #ffffff;
+}
+.box1,.box2,.box3{
+    
+   /* border: 2px solid black; */
+    position: relative;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: lightcyan;
+    margin-left: 33%;
+    box-sizing: border-box;
+    text-align: center;
+}
+i{
+    font-size: 32px;
+    top: 15px;
+    right: 20px;
+    color: skyblue; 
+    position: absolute;
+   
+}
+h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    line-height: 1.2;
+    
+}
+p{
+    font-size: 15px;
+    padding: 20px;
+    
+    box-sizing: border-box;
+}
+h1{
+    color:white;
+ 
+  font-weight: 700;
+  
+}
+.para{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.2;
+    margin-top: 25px;
+    margin-bottom:25px ;
+}
+.learn{
+    text-decoration: none;
+    color: skyblue;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom:25px ;
+    background-color: lightcyan;
+    border-radius: 70px;
+}
+.a:hover>.learn{
+    background-color: white;
+    color: #ce1212;
+}
+.b:hover>.box1{
+    background-color: skyblue;
+}
+.c:hover>.box2{
+    background-color: skyblue;
+}
+.d:hover>.box3{
+    background-color: skyblue;
+}
+.b:hover>.box1>i{
+    color: white;
+}
+.c:hover>.box2>i{
+    color: white;
+}
+.c:hover>.box3>i{
+    color: white;
+}
+
+
